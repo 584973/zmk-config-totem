@@ -51,6 +51,16 @@
             key-positions = <13 16>;
             timeout-ms = <100>;
         };
+
+        togglelayer4 {
+            bindings = <&tog 4>;
+            key-positions = <2 3 4>;
+        };
+
+        togglelayer5 {
+            bindings = <&tog 5>;
+            key-positions = <6 5 7>;
+        };
     };
 
     macros {
