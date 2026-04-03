@@ -180,10 +180,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &trans          &mmv MOVE_UP    &trans           &trans
-        &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &mkp MB1        &mkp MB2        &trans           &trans  &trans
-                                 &trans        &trans  &trans    &trans  &trans          &trans
+        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &msc SCRL_RIGHT    &msc SCRL_UP    &trans          &mmv MOVE_UP    &trans           &trans
+        &bootloader  &bt BT_NXT  &trans        &trans  &msc SCRL_LEFT     &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &trans       &bt BT_PRV  &trans        &trans  &trans             &trans          &mkp MB1        &mkp MB2        &trans           &trans  &trans
+                                 &trans        &trans  &trans             &trans          &trans          &trans
             >;
         };
 
