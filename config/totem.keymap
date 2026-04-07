@@ -65,6 +65,8 @@
         movetolayer3 {
             bindings = <&mo 3>;
             key-positions = <33 36>;
+            slow-release;
+            layers = <3>;
         };
     };
 
